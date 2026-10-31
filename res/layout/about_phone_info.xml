@@ -116,7 +116,23 @@
             android:id="@+id/screen_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
             android:text="@string/lunaris_screen_message"
+            style="@style/TextAppearance.SuperiorInfoSummary" />
+
+        <TextView
+            android:id="@+id/camera_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/lunaris_camera_title"
+            style="@style/TextAppearance.SuperiorInfoTitle" />
+
+        <TextView
+            android:id="@+id/camera_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lunaris_camera_message"
             style="@style/TextAppearance.SuperiorInfoSummary" />
 
     </LinearLayout>
